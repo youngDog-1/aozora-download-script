@@ -1,0 +1,16 @@
+body {
+  -epub-line-break: normal;
+  -epub-writing-mode: vertical-rl;
+  -webkit-line-break: normal;
+  -webkit-writing-mode: vertical-rl;
+  display: block;
+  font-family: "@hiragino Mincho Pron", "@ヒラギノ明朝 Pro W3", "@ipaexmincho", "@ipaex明朝", "@MS Mincho", "@ＭＳ 明朝", "ヒラギノ明朝 Pro W3", Hiragino Mincho Pron, Ipaexmincho, "Ipaex明朝", serif;
+  font-size: 1em;
+  letter-spacing: 0;
+  line-break: normal;
+  line-height: 150%;
+  padding-left: 0;
+  padding-right: 0;
+  writing-mode: vertical-rl;
+  margin: 0 5pt;
+}

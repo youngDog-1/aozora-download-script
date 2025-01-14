@@ -73,11 +73,11 @@ public class Controller {
                 Path file = dir.resolve(bookInfo.getBookName() + ".epub");
                 if(!Files.exists(file)) {
                     Epub epub = new Epub(bookInfo);
-                    epub.createEpub(file);
-                    i++;
+                    if(epub.createEpub(file)) i++;
                 }
 
             } catch (IOException ignored) {
+                ignored.printStackTrace();
             }
         }
         return i;
